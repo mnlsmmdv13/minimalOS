@@ -136,8 +136,7 @@ void terminal_writestring(const char *data)
 #if defined(__cplusplus)
 extern "C" /* Use C linkage for kernel_main. */
 #endif
-    void
-    kernel_main()
+void kernel_main()
 {
   /* Initialize terminal interface */
   terminal_initialize();
